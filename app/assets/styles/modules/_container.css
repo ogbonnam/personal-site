@@ -1,0 +1,31 @@
+.container {
+    padding-right: 18px;
+    padding-left: 18px;
+    overflow: hidden;
+    width: 80%;
+    margin: 6.5rem auto;
+
+    &__half {
+        width: 90%;
+        margin: 0 auto;
+
+        &-description {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            color: #758092;
+            font-weight: 300;
+        }
+    }
+    
+}
+.container:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.contact-us {
+    background-color: #F7F7F7;
+    padding: 10px 0;
+}

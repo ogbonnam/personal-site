@@ -1,0 +1,10 @@
+.section-title {
+    color: #0e1116;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Poppins';
+    padding-bottom: 2.5rem;
+    &__centered {
+        text-align: center;
+    }
+}

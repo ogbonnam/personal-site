@@ -1,0 +1,86 @@
+.row {
+    
+    margin-bottom: 20px;
+
+    &--gutters {
+        margin-right: -65px;
+    }
+
+    &__right-border{
+        border-right: $mainPurple 0.5px solid;
+        padding: 4px 7px 4px 7px;
+
+        &__last{
+            border-right: none;
+        }
+        
+    }
+    
+    &-purple{
+        background-color: $mainPurple;
+    }
+
+    &--gutters > div {
+        padding-right: 65px;
+    }
+    
+    @mixin atMedium {
+        &__medium-4 {
+            float: left;
+            width: 30%;
+            margin-right: 10px;
+     
+        }
+
+        &__medium-8 {
+            float: left;
+            width: 60%;     
+            &-pl-1{
+                margin-left: 20px;;
+            }
+            &-pl-2{
+                margin-left: 40px;;
+            }
+            &-pl-3{
+                margin-left: 60px;;
+            }
+            &-pl-4{
+                margin-left: 80px;;
+            }
+           
+        }
+
+        &__title{
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.25rem;
+            font-weight: 200;
+            padding-left: 40px;
+            line-height: 48px;
+            color: #0e1116;
+        }
+
+        &__description{
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            font-weight: 300;
+            padding-left: 40px;
+            line-height: 24px;
+            color: #0e1116;
+        }
+
+        &__medium-6 {
+            width: 50%; 
+            float: left;
+            padding: 10px 10px;
+            
+            
+        }
+        &__medium-12 {
+            width: 100%; 
+            float: left;
+            padding: 10px 10px;
+           
+        }
+            
+    }
+}

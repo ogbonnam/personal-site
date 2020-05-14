@@ -1,0 +1,24 @@
+.btn {
+    background-color: $mainOrange;
+    display: inline-block;
+
+    &-purple {
+        background-color: $mainPurple;
+    }
+
+
+    &__large {
+        padding: 0.8rem;
+        color: white;
+        border-color: $mainPurple;
+    }
+    
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}

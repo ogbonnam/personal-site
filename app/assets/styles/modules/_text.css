@@ -1,0 +1,10 @@
+.text {
+    &__purple {
+        color: $mainPurple;
+    }
+    &__size-large {
+        font-size: 72px;
+        font-weight: 600;
+        line-height: 72px;
+    }
+}
